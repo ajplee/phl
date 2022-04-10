@@ -1,0 +1,57 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background: black;
+  border-right: 2px solid white;
+  z-index: -1;
+}
+
+.right {
+  right: 0;
+  background: black;
+  border-left: 2px solid white;
+  z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.centered img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.heading {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 10px 30px;
+  border: .125rem solid white;
+  border-radius: 2.5rem;
+}
+
+.score {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  color: white;
+}
