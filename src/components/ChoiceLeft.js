@@ -6,6 +6,10 @@ import { getData } from '../util/query';
 const ChoiceLeft = (props) => {
     const { name, link } = props;
 
+    const handleClick = () => {
+        console.log('left clicked');
+    };
+
     return(
         <div>
             <div className="split left">

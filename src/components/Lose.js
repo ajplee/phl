@@ -8,7 +8,11 @@ const Lose = () => {
     const handleMenuClick = () => {
         setScore(0);
         setStarted(false);
-    }
+    };
+
+    const handlePlayAgainClick = () => {
+        setScore(0);
+    };
 
     return (
         <div>
